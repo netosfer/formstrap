@@ -1,8 +1,5 @@
 # Bootstrap 5 forms for Laravel
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-
 This is a package for creating Bootstrap 5 styled form elements in Laravel 5/6/7/8/9/10.
 Built by inheriting the netojose/laravel-bootstrap-4-forms package.
 
@@ -70,7 +67,7 @@ If you is using Laravel 5.5, the auto discovery feature will make everything for
 ```php
 'aliases' => [
     //...
-    'Form' => Netosfer\Formstrap\FormstrapFacade::class,
+    'Formstrap' => Netosfer\Formstrap\FormstrapFacade::class,
 ],
 ```
 
