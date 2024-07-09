@@ -1,0 +1,41 @@
+{
+    "name": "netosfer/formstrap",
+    "type": "package",
+    "description": "Bootstrap form builder for Laravel",
+    "keywords": [
+        "laravel",
+        "bootstrap",
+        "forms",
+        "php",
+        "form-builder",
+        "composer",
+        "package"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Netosfer Software",
+            "email": "info@netosfer.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "netosfer/formstrap": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netosfer\\Formstrap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Netosfer\\Formstrap\\FormstrapServiceProvider"
+            ],
+            "aliases": {
+                "Formstrap": "Netosfer\\Formstrap\\FormstrapFacade"
+            }
+        }
+    }
+}
